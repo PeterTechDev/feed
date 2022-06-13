@@ -35,7 +35,7 @@
 
 .profile span {
   font-size: 0.875rem;
-  
+
 }
 
 .sidebar footer {
@@ -58,4 +58,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
+  transition: all .1s ease-in-out;
+}
+
+.sidebar footer a:hover {
+  background:var(--green-500);
+  color: var(--white);
 }
