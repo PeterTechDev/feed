@@ -9,6 +9,9 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
+
+      <img className={styles.avatar} src="https:github.com/petertechdev.png" alt="" />
+
         <strong>Lebronzito James</strong>
         <span>Basketball player</span>
       </div>
